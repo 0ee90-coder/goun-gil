@@ -18,5 +18,9 @@ openrouteservice
 pandas
 numpy
 
+# Map
+folium
+streamlit-folium
+
 # Other
 python-dotenv
