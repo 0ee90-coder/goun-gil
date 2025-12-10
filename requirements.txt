@@ -1,0 +1,22 @@
+# Streamlit
+streamlit
+streamlit-image-button
+
+# LangChain
+langchain
+langchain-openai
+langchain-chroma
+chromadb
+
+# OpenAI
+openai
+
+# Routing
+openrouteservice
+
+# Data Processing
+pandas
+numpy
+
+# Other
+python-dotenv
