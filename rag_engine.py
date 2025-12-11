@@ -45,7 +45,7 @@ class TourRecommendationEngine:
             )
         
         # LLM 설정
-        self.llm = ChatOpenAI(model="gpt-4o", temperature=0.7, api_key=api_key)
+        self.llm = ChatOpenAI(model="gpt-5.1", temperature=0.7, api_key=api_key)
         self.rerank_llm = ChatOpenAI(model="gpt-4o-mini", temperature=0, api_key=api_key)
         self.embeddings = OpenAIEmbeddings(model="text-embedding-3-large", api_key=api_key)
         
